@@ -9,6 +9,6 @@ task hello {
   description "First Gradle Project"
   group "demo"
   doLast {
-    println "Sagar is Awesome developer"
+    println "Sagar is soon to become Awesome gradle developer"
   }
 }
