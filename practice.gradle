@@ -1,0 +1,14 @@
+/*
+To tell Gradle to use this practice file as the build script instead of the
+default build.gradle, use:
+
+./gradlew -b practice.gradle hello
+*/
+
+task hello {
+  description "First Gradle Project"
+  group "demo"
+  doLast {
+    println "Sagar is Awesome developer"
+  }
+}
